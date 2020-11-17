@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Cards</title>
-	<base href="<?php echo URL::base(TRUE) ?>" target="_self">
+	<base href="/" target="_self" />
 	<meta name="verify-webtopay" content="fddb0a1dcf59231075c6e6d75a1302bd">
 	<link rel="icon" type="image/ico" href="media/media/images/images/favicon2.ico" />
 	<meta http-equiv="X-UA-Compatible" content="IE=9" />
