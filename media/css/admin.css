@@ -1,0 +1,256 @@
+#adminLoginFormContainer{
+	border: 1px solid #E6E3E3;
+	width: 253px;
+	height: 134px;
+	position: fixed;
+	background: -webkit-gradient(linear, left top, left bottom, from(white), to(#F4F4F4));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f4f4f4');
+	background-image: -o-linear-gradient(top, white, #F4F4F4);
+	background-image: -moz-linear-gradient(top, white, #F4F4F4);
+	border-radius: 5px;
+	padding: 5px;
+	left: 50%;
+	top: 50%;
+	margin-left: -125px;
+	margin-top: -42px;
+	z-index:999999999999;
+	display:none;
+}
+
+#loginBg{
+	position:fixed;
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+	background-color:#000;
+	opacity:0.3;
+	z-index:99999999;
+	display:none;
+}
+
+#adminLoginTitle{
+	margin-bottom:10px;
+}
+
+.AdminLoginTitleIcon{
+	background: url("../images/icons.png") -297px -22px;
+	width: 24px;
+	height: 20px;
+}
+
+.AdminLoginTitleText{
+	margin-top: 4px;
+	margin-left: 12px;
+	font-size: 11px;
+	font-family: Tahoma;
+	color: #0F315E;
+}
+
+.AdminLoginLabel{
+	font-size: 11px;
+	width: 78px;
+	height: 18px;
+	vertical-align: middle !important;
+	font-family: Verdana;
+}
+
+#AdminLogin{
+	background: url("../images/icons.png") -14px -100px;
+	width: 100px;
+	height: 24px;
+	margin: auto;
+	margin-top: 10px;
+	cursor:pointer;
+}
+
+.AdminCpToolText{
+	font-size: 12px;
+	font-family: 'Times New Roman', 'Times New Roman', Times, serif;
+	color: #0F62BB;
+}
+
+.adminIcon{background:url("../images/icons.png"); cursor:pointer;}
+
+.adminToolAddBg, .adminToolAddimg{background-position: -121px -103px;width: 15px;height: 16px;margin-right: 9px;}
+.adminToolEditAboutUs{background-position: -390px -7px;width: 15px;height: 16px;margin-right: 9px;}
+.adminToolManageUsers{background-position: -140px -103px;width: 15px;height: 16px;margin-right: 9px;}
+.adminLogout{background-position: -231px -103px;width: 18px;height: 18px; margin-right: 6px; margin-top:-1px;}
+.adminToolManagePresets{background-position: -162px -103px;width: 15px;height: 16px;margin-right: 9px;}
+.manageImgDeleteCategory, .manageImgDeleteUser{background-position: -187px -101px;width: 15px;height: 16px;margin-left: 9px;}
+.manageImgCreate{background-position: -207px -103px;width: 19px; height: 16px;margin-left: 9px;}
+.manageUserdisable{background-position: -257px -103px;width: 19px; height: 16px;margin-left: 9px;}
+.manageUserenable, .manageUserChangePassword{background-position: -207px -103px;width: 19px; height: 16px;margin-left: 9px;}
+
+.adminToolLink{cursor:pointer;margin-top:6px;}
+
+.manageImgBlock{margin-bottom: 15px;}
+
+.manageImgBlockTitle{text-align:center;}
+
+.manageImgTitle{
+	font-family: 'Times New Roman', 'Times New Roman', Times, serif;
+	font-size:12px;
+	color:#197B8D;
+	margin-left: 16px;
+	margin-bottom: 4px;
+}
+
+
+.manageUploadBlock{
+	margin-left: 48px;
+}
+
+.popupboxLoadingContainer{
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+	background:#fff;
+	display:none;
+	opacity: 0.7;
+	filter:alpha(opacity: 0.7)
+}
+
+.loginErrorBox{
+	color: white;
+	font-size: 10px;
+	font-family: Tahoma;
+	letter-spacing: 1px;
+	margin-top: 10px;
+	text-align: center;
+	background: #15B2CF;
+	border-radius: 4px;
+	height: 15px;
+	padding-top: 2px;
+	display:none;
+}
+
+ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+
+.AdminUsersList{
+	width: 670px;
+	margin-left: 3px;
+	margin-bottom:10px;
+}
+
+.AdminUserListItem{
+	border: 1px solid #B8B2B2;
+	border-top: 0px;
+	height: 21px;
+}
+
+.AdminUserListItem:hover{background:#E4FAF6;}
+
+.adminUsersListTitle{
+	border-right: 1px solid #B8B2B2;
+	width: 102px;
+	height: 100%;
+	font-size: 10px;
+	font-family: Verdana;
+	text-align: center;
+	line-height: 20px;
+}
+
+.adminUpdateUsername{
+	width: 75px !important;
+	margin-top: 0px !important;
+	margin-left: -8px !important;
+	height: 13px !important;
+}
+
+.createUserLabel{
+	width: 70px;
+	font-size: 12px;
+	font-family: Verdana;
+	color: #095F7A;
+	margin-top:14px;
+}
+
+.presetsRequiredField{
+	font-size: 11px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Verdana,Arial,sans-serif;
+	color: #636060;
+}
+
+.presetStar{color: #246AFF !important;font-size: 14px !important;}
+
+.presetFields{
+	font-family: "Lucida Grande","Lucida Sans Unicode",Verdana,Arial,sans-serif;
+	font-size: 13px;
+	width: 144px;
+	height: 24px;
+	color: #096859;
+}
+
+.presetDesc{margin-top:0px !important; width:229px !important; height:40px !important;}
+.savePreset{display:block;margin-top:11px;}
+.editPreset{display:block;margin-top:26px;}
+
+.managePresetPreviewContainer{
+	position: absolute;
+	top: 230px;
+	left: 480px;
+}
+
+.managePresetPreviewImgContainerCreate{
+	position: absolute;
+	top: 60px;
+	left: 480px;
+}
+
+.presetCreatePreviewTitle{
+	position:absolute;
+	left:480px;
+	top:30px;
+}
+
+.managePresetPreviewImgCreate{max-width:170px; max-height:94px;}
+.managePresetPreviewImg{max-width:170px;}
+
+.adminCpMessage{
+	color: white;
+	font-size: 10px;
+	font-family: Tahoma;
+	letter-spacing: 1px;
+	margin-top: 13px;
+	text-align: center;
+	background: #15B2CF;
+	border-radius: 4px;
+	height: 15px;
+	padding-top: 2px;
+	padding-left: 6px;
+	padding-right: 6px;
+	visibility:hidden;
+}
+
+#descCounter{padding-left: 10px;padding-top: 15px;color: #635F5F;}
+
+.adminReturn{
+	background: url("../images/icons.png") -192px -46px;
+	width: 16px;
+	height: 16px;
+	margin-left: 25px;
+}
+
+.editAboutUsTextarea{
+	width:640px;
+	height:200px;
+	margin:auto;
+}
+
+.aboutUsEditSubmit{
+	background: url("../images/save.jpg");
+	height: 23px;
+	width: 95px;
+	cursor: pointer;
+	position: absolute;
+	top: 274px;
+	left: 50%;
+	margin-left: -50px;
+}
